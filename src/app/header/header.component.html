@@ -1,0 +1,12 @@
+<div class="header">
+    <!-- привязка свойств элементов html --> 
+    <img [src]="currentPhoto" alt="Profile Photo" class="profile-photo" (click)="testEvent()">
+    <h1>{{name}}</h1> <!-- использование интерполяции (односторонней привязки), имя берётся из поля класса в ts-файле -->
+    <h2>{{position}}</h2>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contacts</a>
+    </nav>
+  </div>
